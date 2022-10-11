@@ -16,4 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Contains expresion in a step
-        run: echo "Is this branch master or develop? ${{ contains('refs/heads/master refs/heads/develop',github.ref)}}"
+        run: echo "Is this branch master or develop? ${{ contains('refs/heads/master refs/heads/develop',github.ref)}}" 
